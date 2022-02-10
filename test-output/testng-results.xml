@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="1" failed="1" skipped="5">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-06T06:48:35Z" name="Default suite" finished-at="2022-01-06T06:48:35Z" duration-ms="45">
+  <suite started-at="2022-02-02T07:54:36Z" name="Default suite" finished-at="2022-02-02T07:54:36Z" duration-ms="38">
     <groups>
     </groups>
-    <test started-at="2022-01-06T06:48:35Z" name="Default test" finished-at="2022-01-06T06:48:35Z" duration-ms="45">
-      <class name="com.testing.features.Credentials">
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="10" status="SKIP">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
+    <test started-at="2022-02-02T07:54:36Z" name="Default test" finished-at="2022-02-02T07:54:36Z" duration-ms="38">
+      <class name="com.AutomationPractice.Outputpart">
+        <test-method is-config="true" signature="URL()[pri:0, instance:com.AutomationPractice.Outputpart@287f94b1]" started-at="2022-02-02T13:24:36Z" name="URL" finished-at="2022-02-02T13:24:36Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
+              <![CDATA[java.lang.NullPointerException
+	at com.mini.project.MiniProjec.geturl(MiniProjec.java:33)
+	at com.AutomationPractice.Outputpart.URL(Outputpart.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -44,28 +42,26 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="1" status="SKIP">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
+        </test-method> <!-- URL -->
+        <test-method signature="women()[pri:0, instance:com.AutomationPractice.Outputpart@287f94b1]" started-at="2022-02-02T13:24:36Z" name="women" finished-at="2022-02-02T13:24:36Z" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
+              <![CDATA[java.lang.NullPointerException
+	at com.mini.project.MiniProjec.geturl(MiniProjec.java:33)
+	at com.AutomationPractice.Outputpart.URL(Outputpart.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:756)
@@ -85,179 +81,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="4" status="SKIP">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+        </test-method> <!-- women -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.AutomationPractice.Outputpart@287f94b1]" started-at="2022-02-02T13:24:36Z" name="close" finished-at="2022-02-02T13:24:36Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="1" status="SKIP">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="1" status="SKIP">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="password()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="password" finished-at="2022-01-06T12:18:35Z" duration-ms="1" status="FAIL">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<m...> but was:<M...>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<m...> but was:<M...>
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.testing.features.Credentials.password(Credentials.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="username()[pri:0, instance:com.testing.features.Credentials@6e01f9b0]" started-at="2022-01-06T12:18:35Z" name="username" finished-at="2022-01-06T12:18:35Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- username -->
-      </class> <!-- com.testing.features.Credentials -->
+        </test-method> <!-- close -->
+      </class> <!-- com.AutomationPractice.Outputpart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

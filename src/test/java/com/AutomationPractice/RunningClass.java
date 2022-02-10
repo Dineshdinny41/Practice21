@@ -17,9 +17,18 @@ import com.Automation.pom.LoginPage;
 			LoginPage lp = new LoginPage(driver);
 			signin(lp.getLoginbtn());
 			
-		//	WebElement sign=driver.findElement(By.xpath("//a[@class='login']"));
-			//signin(sign);//
-		//	WebElement mailid = driver.findElement(By.id("email"));
+			WebElement sign=driver.findElement(By.xpath("//a[@class='login']"));
+			signin(sign);//
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			WebElement mailid = driver.findElement(By.id("email"));
 			//signup(mailid,"mail","dineshdinny97@gmail.com");
 			//WebElement pass = driver.findElement(By.id("passwd"));
 			//signup(pass, "password", "sathish@1");

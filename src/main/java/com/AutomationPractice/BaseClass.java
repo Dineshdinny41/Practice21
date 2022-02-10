@@ -17,14 +17,15 @@ package com.AutomationPractice;
 		public static WebDriver driver;
 		public static  WebDriver launchbrowser(String browsername) {
 			if(browsername.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivernew\\chromedriver.exe");
 				driver = new ChromeDriver();
 			}
 			else if(browsername.equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver",  System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
+				System.setProperty("webdriver.gecko.driver",  System.getProperty("user.dir")+"\\Drivernew\\chromedriver.exe");
 				driver = new FirefoxDriver();
 			}
-			return driver;
+			return null;
+			
 			
 		}
 		public static void geturl(String url) {
